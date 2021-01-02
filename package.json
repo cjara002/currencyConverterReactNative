@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "date-fns": "^2.16.1",
     "expo": "~39.0.0",
     "expo-asset": "~8.2.0",
     "expo-constants": "~9.2.0",
@@ -11,7 +12,9 @@
     "react-native-web": "0.13.13"
   },
   "devDependencies": {
-    "@babel/core": "7.9.0"
+    "@babel/core": "7.9.0",
+    "eslint-config-handlebarlabs": "^0.0.6",
+    "prettier": "^2.1.2"
   },
   "scripts": {
     "start": "expo start",
